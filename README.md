@@ -1,5 +1,10 @@
 # 💼 Wisdom Shaibu – DevOps Portfolio Website
 
+![DevOps Project](https://img.shields.io/badge/Type-DevOps-blue?style=for-the-badge)
+![CI/CD](https://github.com/wizzfi1/HexSoftwares_Personal_Portfolio/actions/workflows/deploy.yml/badge.svg)
+![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen?style=for-the-badge)
+
+
 This is my personal DevOps engineer portfolio hosted on **GitHub Pages**, designed to showcase my skills, resume, and projects with professional UI, responsive design, and automated deployment.
 
 🔗 **Live Site**: [https://wizzfi1.github.io/HexSoftwares_Personal_Portfolio](https://wizzfi1.github.io/HexSoftwares_Personal_Portfolio)
