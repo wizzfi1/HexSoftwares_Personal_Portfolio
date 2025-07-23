@@ -145,3 +145,46 @@ body.dark-mode footer {
     font-size: 14px;
   }
 }
+
+/* Project Cards Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #0077cc;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+body.dark-mode .project-card {
+  background-color: #1c1c1c;
+  border-color: #333;
+  color: #eee;
+}
+
+body.dark-mode .project-card a {
+  color: #4db8ff;
+}
