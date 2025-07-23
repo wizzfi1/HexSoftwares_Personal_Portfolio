@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0077cc;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+}
+
+.job, .project {
+  margin-bottom: 1.5rem;
+}
